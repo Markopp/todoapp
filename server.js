@@ -18,6 +18,7 @@ var todos = [{
 
 app.get('/', function(req, res) {
 	res.send('Todo API Root');
+	res.send('New line');
 });
 
 app.get('/todos', function(req, res) {
